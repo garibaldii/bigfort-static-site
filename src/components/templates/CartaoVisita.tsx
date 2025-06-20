@@ -6,6 +6,7 @@ import { ListaDeConvenios } from "../molecules/ConvenioButton";
 import PlaceIcon from "@mui/icons-material/Place";
 
 export function CartaoVisita() {
+
     return (
         <div className="flex justify-center items-start w-full mt-2">
             <div className="flex flex-col lg:flex-row max-w-7xl w-full rounded-lg">
@@ -37,6 +38,7 @@ export function CartaoVisita() {
                 <div className="flex flex-col lg:overflow-y-auto lg:max-h-[70vh] w-full lg:w-3/5 ml-0 lg:ml-10 lg:mt-0 space-y-4 lg:space-y-2 p-4 lg:p-2">
                     {/* Lista de botões de contato */}
                     <div className="grid grid-cols-1 gap-3">
+
 
                         <ContactButton
                             href="https://api.whatsapp.com/send?l=pt_br&phone=551532265175"
@@ -133,6 +135,8 @@ export function CartaoVisita() {
                             text="Venha fazer parte da equipe Bigfort São Conrado "
                             hoverClass=" hover:text-red-600"
                         />
+
+
 
                     </div>
 

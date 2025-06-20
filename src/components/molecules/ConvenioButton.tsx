@@ -1,3 +1,5 @@
+import { ReputationSeal } from "./ReputationSeal";
+
 interface ListaDeConveniosProps {
     visibilidadeDispositivo: string;
     alturaImagens?: string;
@@ -31,10 +33,13 @@ export function ListaDeConvenios({
 
 
     return (
-        <div className={`${visibilidadeDispositivo} flex flex-col items-center gap-2 rounded-lg `}>
+        <div className={`${visibilidadeDispositivo} flex flex-col items-center rounded-lg `}>
             <p>CONVÊNIOS</p>
 
-            <div className="flex flex-wrap justify-center gap-2 w-full">
+            <div className="flex flex-wrap justify-center gap-2 w-full items-center">
+                
+                {/*Reclame Aqui*/}
+                <ReputationSeal />
                 {dimensionaLogo()}
             </div>
         </div>
