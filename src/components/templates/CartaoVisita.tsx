@@ -66,11 +66,6 @@ export function CartaoVisita() {
                             fontSize="text-lg"
                         />
 
-
-
-
-
-
                         <ContactButton
                             href="https://l.ead.me/bcpOcb"
                             imgSrc="icons/app.png"
@@ -142,7 +137,6 @@ export function CartaoVisita() {
 
                     {/* Footer */}
                     <div className="flex flex-col items-center text-center font-semibold text-xs lg:text-sm space-y-2 mt-4 lg:mt-2">
-
 
                         <p className="text-red-600 font-extrabold">BIGFORT SÃO CONRADO DE SOROCABA</p>
                         <p>RUA LUÍZ RICARDO MAFFEI 1273</p>

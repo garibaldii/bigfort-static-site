@@ -14,7 +14,7 @@ const logos = [
     "icons/convenio/vidalink.png",
     "icons/convenio/golden_farma.jpeg",
     "icons/convenio/system_farma.png",
-    "icons/convenio/epharma.png"
+    "icons/convenio/epharma.png",
 ]
 
 export function ListaDeConvenios({
@@ -37,9 +37,18 @@ export function ListaDeConvenios({
             <p>CONVÊNIOS</p>
 
             <div className="flex flex-wrap justify-center gap-2 w-full items-center">
-                
-                {/*Reclame Aqui*/}
-                <ReputationSeal />
+
+                {/*Reclame Aqui Dinâmico*/}
+                {/* <ReputationSeal /> */}
+
+                <a
+                    href="https://www.reclameaqui.com.br/empresa/mcc-almeida-farmacia-sorocaba/?utm_source=referral&utm_medium=embbed&utm_campaign=reputacao&utm_term=vertical"
+                    target="_blank"
+
+                >
+                    <img src="images/reclame-aqui.png" className={` h-16 object-contain`} />
+                </a>
+
                 {dimensionaLogo()}
             </div>
         </div>
